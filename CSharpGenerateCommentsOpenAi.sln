@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpGenerateCommentsOpenAi", "CSharpGenerateCommentsOpenAi\CSharpGenerateCommentsOpenAi.csproj", "{F88AF61F-22A2-45E0-BB77-5A7683C25EC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD72F1FB-E194-4BB8-871F-0A93D2A0AF8D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F88AF61F-22A2-45E0-BB77-5A7683C25EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88AF61F-22A2-45E0-BB77-5A7683C25EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88AF61F-22A2-45E0-BB77-5A7683C25EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88AF61F-22A2-45E0-BB77-5A7683C25EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A35842E-8A30-4F76-AF73-4C545785CD23}
+	EndGlobalSection
+EndGlobal

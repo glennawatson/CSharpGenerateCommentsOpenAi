@@ -1,0 +1,34 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Glenn Watson</Authors>
+    <Copyright>Copyright (c) Glenn Watson © 2024-$([System.DateTime]::Now.ToString('yyyy'))</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/glennawatson/CSharpGenerateCommentsOpenAi</PackageProjectUrl>
+    <PackageDescription>Submit CSharp code portions to OpenAI for commenting.</PackageDescription>
+    <PackageReleaseNotes>https://github.com/glennawatson/CSharpGenerateCommentsOpenAi/releases</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/glennawatson/CSharpGenerateCommentsOpenAi</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Nullable>enable</Nullable>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+   <PropertyGroup>
+    <SolutionDir Condition="'$(SolutionDir)' == ''">$(MSBuildThisFileDirectory)</SolutionDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)LICENSE" Pack="true" PackagePath="LICENSE" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" PrivateAssets="all" Version="1.2.0-beta.556" />
+    <PackageReference Include="Roslynator.Analyzers" PrivateAssets="all" Version="4.11.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="$(MSBuildThisFileDirectory)stylecop.json" Link="stylecop.json" />
+  </ItemGroup>
+</Project>
