@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "CSharpGenerateCommentsOpenAi": {
-      "commandName": "Project",
-      "commandLineArgs": "--api-key=\"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\" --folder=\"C:\\source\\gh\\reactiveui\\ReactiveUI\\src\""
-    }
-  }
-}
